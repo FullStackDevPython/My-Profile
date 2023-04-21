@@ -1,8 +1,8 @@
 import cv2
 
-source="C:\\Users\\USER\\OneDrive\\Desktop\\uploads\\Mini-Projects\\image-resizer\\img.jpg"
-destination="C:\\Users\\USER\\OneDrive\\Desktop\\uploads\\Mini-Projects\\image-resizer\\newImage.png"
-scale_percent = 50
+source="C:\\Users\\USER\\OneDrive\\Desktop\\uploads\\Mini-Projects\\image-resizer\\sign.jpeg"
+destination="C:\\Users\\USER\\OneDrive\\Desktop\\uploads\\Mini-Projects\\image-resizer\\newsign.jpeg"
+scale_percent = 30
 
 src = cv2.imread(source, cv2.IMREAD_UNCHANGED)
 # cv2.imshow("title",src)
